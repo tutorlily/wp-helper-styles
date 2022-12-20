@@ -1,0 +1,88 @@
+.row-affiche {
+	gap: 0;
+	padding: 0;
+}
+.row-affiche > * {
+	flex: 1;
+}
+.welcome-blk {
+	border-top: 8em;
+	border-bottom: 8em;
+	border-color: var(--nv-primary-accent);
+	border-style: solid;
+}
+.icon-bar {
+	width: 32px;
+}
+#cb-row--footer-bottom {
+	display: none;
+}
+.wp-block-pullquote {
+	border: 0;
+}
+.header {
+	position: fixed;
+	top:0;right:0;left:0;
+	z-index:1001;
+	background-image: url(http://wp.localhost/wp-content/uploads/2022/12/header-grad.png);
+	background-size: auto 100%;
+	background-repeat: repeat-x;
+}
+.hfg-slot {
+	_align-items: flex-start;
+}
+.w100pc {
+	width: 100%!important;
+}
+.w100pc-in * {
+	width: 100%!important;
+}
+.absolute {
+	position: absolute;
+}
+.bottom {
+	bottom: 0;
+}
+.left {
+	left: 0;
+}
+.no-border {
+	border: 0;
+}
+.dspblk, .dspblk * {
+	display: block;
+}
+.h20px, .h20px * {
+	height: 20px!important;
+}
+.m0 {
+	margin: 0;
+}
+.py2 {
+	padding: 2em 0;
+}
+.pt4 {
+	padding-top: 4em;
+}
+.py4, .py-4 {
+	padding: 4em 0;
+}
+.py10, .py-10 {
+	padding: 10em 0;
+}
+@media only screen and (max-width: 420px) {
+	.home-welcome-header {
+		font-size: 20pt!important;
+	}
+	.home-welcome-msg {
+		font-size: 12pt!important;
+	}
+	.nv-title-tagline-wrap {
+		display: none;
+	}
+	.home-welcome-msg {
+		font-size: small;
+		padding: 0 20px;
+		margin-top: -20px;
+	}
+}
